@@ -1,0 +1,104 @@
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 180px;
+}
+.search {
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    width: 475px;
+    height: 40px;
+}
+.mic {
+    position: relative;
+    bottom: 63px;
+    left: 210px;
+}
+.glass {
+    position:relative;
+    bottom: 110px;
+    right: 215px;
+}
+button {
+    background-color: whitesmoke;
+    border-color: white;
+    padding: 10px;
+    border-style: solid;
+    color: dimgray;
+    font-size: 13px;
+    border-radius: 5px;
+    width: 135px;
+}
+.b1:hover {
+    border-color: dimgray;
+}
+.b2:hover {
+    border-color: dimgray;
+}
+.b1 {
+    position: relative;
+    right: 75px;
+    bottom: 100px;
+}
+.b2 {
+    position: relative;
+    bottom: 169px;
+    left: 75px;
+}
+.top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding-top: 10px;
+    color: dimgray;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.topleft {
+    margin-right: auto;
+    color: dimgray;
+    text-decoration: none;
+}
+.about {
+    margin-left: 20px;
+}
+.store {
+    margin-left: 30px;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgray;
+    background-color: rgb(230,230,230);
+}
+.q {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: dimgray;
+}
+.q:hover {
+    text-decoration: underline;
+}
+.signin {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 20px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
