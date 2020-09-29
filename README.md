@@ -1,1 +1,4 @@
-Imitating the Google homepage using HTML and CSS.
+# google-clone
+Recreation of the Google homepage built with HTML and CSS. 
+
+View my work here: [Google Clone](https://zjakwani.github.io/google-clone/)
